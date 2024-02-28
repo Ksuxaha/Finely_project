@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+.download {
+  padding-bottom: 114px;
+
+  .container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .wrapper-download__title {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 6px;
+    padding: 23px 0;
+  }
+  .wrapper-download__text{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+  }
+  .wrapper-download__btn{
+    border: 1px solid rgb(255, 67, 67);
+    background: rgb(255, 67, 67);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 370px;
+    height: 80px;
+    display: block;
+    margin: 80px  auto  0;
+  }
+  .wrapper-download__btn:hover{
+    background: rgb(231, 20, 20);
+    transition: 0.3s;
+  }
+
+  .wrapper-download__btn:active{
+    box-shadow: 4px 4px 30px 0px rgb(255, 67, 67);
+    background: rgb(255, 67, 67);
+    transition: 0.3s;
+  }
+}
