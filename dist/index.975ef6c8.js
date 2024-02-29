@@ -579,7 +579,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"8lqZg":[function(require,module,exports) {
-var swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".swiper", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true
