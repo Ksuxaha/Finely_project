@@ -1,0 +1,1 @@
+{"mappings":"AACA;;;;;;AAMA","sources":["styles/styles.scss"],"sourcesContent":["\n*{\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\n\n.container{\n  background: red;\n}"],"names":[],"version":3,"file":"index.e0d6eb5d.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,0 +1,92 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap";
+.team {
+  padding: 114px 0;
+}
+
+.team .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.team .team-wrapper {
+  justify-content: space-between;
+  gap: 30px;
+  display: flex;
+}
+
+.team .team_card__title {
+  color: #2d3033;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 30px 0 5px;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.team .team_card__subtitle {
+  color: #ff4343;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.team .team_card__text {
+  color: #6c7279;
+  text-align: left;
+  margin: 18px 0 38px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.team .team_card__social {
+  column-gap: 6px;
+}
+
+.team .team_card__social__frameF {
+  border: 1px solid silver;
+  padding: 10px 14px;
+}
+
+.team .team_card__social__frameT {
+  border: 1px solid silver;
+  padding: 11px 10px 11px 9px;
+}
+
+.team .team_card__social__frameL {
+  border: 1px solid silver;
+  padding: 10px 11px 10px 10px;
+}
+
+.team .team_card__social__frameF:hover {
+  z-index: 1;
+  background: #ff4343;
+  transition: all .7s ease-in-out;
+  box-shadow: 4px 4px 30px #ff4343;
+}
+
+.team .team_card__social__frameT:hover {
+  z-index: 1;
+  background: #0a13c7;
+  transition: all .7s ease-in-out;
+  box-shadow: 4px 4px 30px #454ca4;
+}
+
+.team .team_card__social__frameL:hover {
+  z-index: 1;
+  background: #1a9b06;
+  transition: all .7s ease-in-out;
+  box-shadow: 4px 4px 30px #6ad559;
+}
+
+/*# sourceMappingURL=index.7ca403f3.css.map */

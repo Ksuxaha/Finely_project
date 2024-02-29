@@ -70,21 +70,21 @@
     z-index: 1;
     box-shadow: 4px 4px 30px 0px rgb(255, 67, 67);
     background: rgb(255, 67, 67);
-    transition: 0.3s;
+    transition: all 0.7s ease-in-out;
   }
 
   .team_card__social__frameT:hover{
     z-index: 1;
     box-shadow: 4px 4px 30px 0px rgb(69, 76, 164);
     background: rgb(10, 19, 199);
-    transition: 0.3s;
+    transition: all 0.7s ease-in-out;
   }
 
   .team_card__social__frameL:hover{
     z-index: 1;
     box-shadow: 4px 4px 30px 0px rgb(106, 213, 89);
     background: rgb(26, 155, 6);
-    transition: 0.3s;
+    transition: all 0.7s ease-in-out;
   }
 }
 
