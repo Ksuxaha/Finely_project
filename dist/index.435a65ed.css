@@ -21,7 +21,15 @@
 
 .features .card {
   text-align: center;
+  flex-direction: column;
   width: 370px;
+  display: flex;
+}
+
+.features .card img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
 
 .features .card__title {
@@ -45,6 +53,145 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
+}
+
+@media (width <= 1200px) {
+  .features {
+    padding: 78px 0 80px;
+  }
+
+  .features .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .features .wrapper {
+    justify-content: space-evenly;
+    gap: 50px 20px;
+  }
+
+  .features .card {
+    width: 315px;
+  }
+
+  .features .card img {
+    width: 85px;
+    height: 84px;
+  }
+
+  .features .card__title {
+    margin: 24px 0 0;
+    padding: 24px 57px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .features .card__text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (width <= 1024px) {
+  .features {
+    padding: 68px 0 70px;
+  }
+
+  .features .wrapper {
+    justify-content: space-evenly;
+    gap: 40px 15px;
+  }
+
+  .features .card {
+    width: 279px;
+  }
+
+  .features .card img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .features .card__title {
+    margin: 21px 0 0;
+    padding: 18px 40px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .features .card__text {
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (width <= 856px) {
+  .features {
+    padding: 68px 0 70px;
+  }
+
+  .features .wrapper {
+    justify-content: space-evenly;
+    gap: 20px 7px;
+  }
+
+  .features .card {
+    width: 255px;
+  }
+
+  .features .card img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .features .card__title {
+    margin: 21px 0 0;
+    padding: 18px 40px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .features .card__text {
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media (width <= 768px) {
+  .features {
+    padding: 40px 20px 34px;
+  }
+
+  .features .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+  }
+
+  .features .card {
+    width: 100%;
+  }
+
+  .features .card img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .features .card__title {
+    width: 100%;
+    margin: 21px 0 0;
+    padding: 20px 49px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .features .card__text {
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 
 /*# sourceMappingURL=index.435a65ed.css.map */

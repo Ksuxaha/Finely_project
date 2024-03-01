@@ -46,8 +46,6 @@
         text-transform: uppercase;
         width: 134px;
         padding: 38px 26px 36px;
-
-
     }
     .header__menu__link:before{
            content:"";
@@ -137,10 +135,96 @@
         background: rgb(255, 67, 67);
         transition: 0.3s;
     }
+}
+
+@media  (max-width: 1200px) {
+    .main {
+        padding: 0 20px 126px;
 
 
+        .header__menu__link {
+            font-size: 12px;
+            line-height: 14px;
+            width: 100px;
+            padding: 30px 9px 30px;
+        }
+
+        .wrapper-main__title{
+            font-size: 48px;
+            line-height: 56px;
+            margin: 158px auto 62px;
+        }
+
+        .wrapper-main__text{
+            font-size: 18px;
+            line-height: 21px;
+            padding: 0 102px;
+        }
+
+        .wrapper-main__button{
+            width: 314px;
+            margin: 0 auto;
+            margin-top: 89px;
+        }
+    }
+}
 
 
+@media (max-width: 768px) {
+    .main {
+        padding: 0 20px 52px;
+
+        .header {
+            height: 56px;
+        }
+
+        .header__logo {
+            margin: 20px 0;
+        }
+
+        .header__menu {
+            display: flex;
+        }
+
+
+        .header__menu__link {
+            display: none;
+        }
+
+        .wrapper-main__title {
+
+            font-size: 36px;
+            line-height: 42px;
+            margin: 50px auto 31px;
+        }
+
+        .wrapper-main__text {
+            font-size: 14px;
+            line-height:16px;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .wrapper-main__button {
+
+            width: 280px;
+            height: 60px;
+            margin: 0 auto;
+            display: block;
+            margin-top: 49px;
+        }
+
+        .wrapper-main__button:hover {
+            background: rgb(231, 20, 20);
+            transition: 0.3s;
+        }
+
+        .wrapper-main__button:active {
+            box-shadow: 4px 4px 30px 0px rgb(255, 67, 67);
+            background: rgb(255, 67, 67);
+            transition: 0.3s;
+        }
+    }
 }
 
 

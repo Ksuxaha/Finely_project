@@ -2,7 +2,6 @@
     max-width: 1510px;
     margin: 0 auto;
     height: 535px;
-    /*height: 490px;*/
     overflow: hidden;
     position: relative;
 }
@@ -10,7 +9,6 @@
 .swiper-slide img{
     width: 100%;
     height: 490px;
-    /*height: 100%;*/
 }
 .swiper-slide{
     display: flex;
@@ -41,8 +39,11 @@
     color: #fff;
     padding: 0 170px 0 129px;
 }
-.swiper-pagination{
-    bottom: 0;
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 
 .swiper-pagination-bullet{
@@ -51,10 +52,84 @@
     background: #fff;
     border: 1px solid #7E5D6F;
     opacity: 1;
+
 }
 .swiper-pagination-bullet:hover{
     background: #7E5D6F;
 }
 .swiper-pagination-bullet:focus{
     background: #7E5D6F;
+}
+
+@media (max-width: 1500px){
+    .swiper{
+        height: 430px;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+    }
+    .swiper-slide img{
+        height: 365px;
+        width: 100%;
+    }
+    .slide__area{
+        height: 365px;
+    }
+    .slide__area h1{
+        width: 100%;
+        font-size: 24px;
+        line-height: 32px;
+        padding: 47px 104px 18px 88px;
+    }
+    .slide__area p{
+        width: 100%;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 0 129px 0 88px;
+    }
+}
+
+@media (max-width: 1024px){
+    .swiper-slide img{
+        height: 365px;
+        width: 100%;
+    }
+    .slide__area{
+        height: 365px;
+    }
+    .slide__area h1{
+        width: 100%;
+        font-size: 22px;
+        line-height: 24px;
+        padding: 90px 104px 18px 60px;
+    }
+    .slide__area p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0 129px 0 60px;
+    }
+}
+
+
+@media (max-width: 960px){
+    .swiper-slide img{
+        height: 365px;
+        width: 50%;
+    }
+    .slide__area{
+        height: 365px;
+    }
+    .slide__area h1{
+        width: 100%;
+        font-size: 22px;
+        line-height: 24px;
+        padding: 90px 104px 18px 60px;
+    }
+    .slide__area p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0 129px 0 60px;
+    }
 }
