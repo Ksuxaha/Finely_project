@@ -86,3 +86,31 @@
     margin: 0  auto ;
   }
 }
+
+@media (max-width: 768px){
+  .download {
+    padding: 34px 20px 45px;
+    .wrapper-download__title {
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 3px;
+      padding: 22px;
+    }
+    .wrapper-download__text{
+      font-size: 13px;
+      line-height: 15px;
+      margin-bottom: 11px;
+    }
+    .wrapper-download__btn{
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      height: 80px;
+      display: block;
+      margin: 0  auto ;
+    }
+  }
+
+}

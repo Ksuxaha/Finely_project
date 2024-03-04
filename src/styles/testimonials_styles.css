@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 .swiper{
     max-width: 1510px;
     margin: 0 auto;
@@ -133,3 +139,47 @@
         padding: 0 129px 0 60px;
     }
 }
+@media(max-width:768px) {
+    .swiper{
+        height: 590px;
+        .slide__img img{
+            height: 50%;
+            width: 100%;
+        }
+        .slide__area{
+            height: 335px;
+        }
+        .slide__img{
+            display: block;
+        }
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+            gap: 20px;
+        }
+        .swiper-pagination{
+            opacity: 1;
+        }
+
+        .slide__area h1{
+            font-size: 24px;
+            line-height: 32px;
+            padding: 27px 25px 27px 20px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .slide__area p{
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            text-align: center;;
+            padding: 0;
+        }
+        .swiper-pagination-bullet{
+            width: 9.5px;
+            height: 9.5px;
+
+        }
+    }
+
+}
+
+

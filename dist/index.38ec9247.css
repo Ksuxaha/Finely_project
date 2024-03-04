@@ -21,6 +21,7 @@
   justify-content: space-between;
   align-items: center;
   display: flex;
+  position: relative;
 }
 
 .main .header__logo {
@@ -179,7 +180,10 @@
   }
 
   .main .header__menu__link {
-    display: none;
+    width: 100px;
+    padding: 20px 4px;
+    font-size: 12px;
+    line-height: 14px;
   }
 
   .main .wrapper-main__title {
@@ -211,6 +215,45 @@
     background: #ff4343;
     transition: all .3s;
     box-shadow: 4px 4px 30px #ff4343;
+  }
+}
+
+@media (width <= 767px) {
+  .main {
+    padding: 0 20px 52px;
+  }
+
+  .main .container {
+    padding: 0;
+  }
+
+  .main .header {
+    height: 56px;
+  }
+
+  .main .header:after {
+    content: url("icon_menu.87b5f1b2.svg");
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .main .header__menu__link {
+    display: none;
+  }
+
+  .main .wrapper-main__title {
+    width: 100%;
+    margin: 50px auto 33px;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .main .wrapper-main__text {
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 

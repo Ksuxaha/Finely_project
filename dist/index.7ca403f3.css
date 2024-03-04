@@ -20,7 +20,7 @@
 }
 
 .team .team_card {
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
   display: flex;
 }
@@ -77,22 +77,25 @@
 
 .team .team_card__social__frameF:hover {
   z-index: 1;
+  cursor: pointer;
   background: #ff4343;
-  transition: all .7s ease-in-out;
+  transition: all .4s ease-in-out;
   box-shadow: 4px 4px 30px #ff4343;
 }
 
 .team .team_card__social__frameT:hover {
   z-index: 1;
+  cursor: pointer;
   background: #0a13c7;
-  transition: all .7s ease-in-out;
+  transition: all .4s ease-in-out;
   box-shadow: 4px 4px 30px #454ca4;
 }
 
 .team .team_card__social__frameL:hover {
   z-index: 1;
+  cursor: pointer;
   background: #1a9b06;
-  transition: all .7s ease-in-out;
+  transition: all .4s ease-in-out;
   box-shadow: 4px 4px 30px #6ad559;
 }
 
@@ -178,10 +181,116 @@
   }
 
   .team .team_card__text {
-    width: 227px;
+    width: 100%;
     margin: 16px 0 18px;
     font-size: 12px;
     line-height: 14px;
+  }
+
+  .team-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (width <= 768px) {
+  .team {
+    padding: 35px 20px 41px;
+  }
+
+  .team .team-wrapper {
+    gap: 5px;
+    width: 100%;
+    display: flex;
+  }
+
+  .team .team-wrapper .team_card {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+  }
+
+  .team .team_card__title, .team .team_card__subtitle {
+    width: 100%;
+  }
+
+  .team .team_card__text {
+    width: 100%;
+    margin: 38px 0 55px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .team-img {
+    width: 100%;
+    height: 228px;
+  }
+}
+
+@media (width <= 720px) {
+  .team {
+    padding: 35px 0 41px;
+  }
+
+  .team .container {
+    padding: 0 20px;
+  }
+
+  .team .team-wrapper {
+    flex-direction: column;
+    gap: 45px;
+    width: 100%;
+    display: flex;
+  }
+
+  .team .team-wrapper .team_card, .team .team_card__title, .team .team_card__subtitle {
+    width: 100%;
+  }
+
+  .team .team_card__text {
+    width: 100%;
+    margin: 38px 0 55px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .team-img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media (width <= 430px) {
+  .team {
+    padding: 35px 0 41px;
+  }
+
+  .team .container {
+    padding: 0 20px;
+  }
+
+  .team .team-wrapper {
+    flex-direction: column;
+    gap: 45px;
+    width: 100%;
+    display: flex;
+  }
+
+  .team .team-wrapper .team_card {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+  }
+
+  .team .team_card__title, .team .team_card__subtitle {
+    width: 100%;
+  }
+
+  .team .team_card__text {
+    width: 100%;
+    margin: 38px 0 55px;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .team-img {

@@ -1,36 +1,3 @@
-@media (width <= 768px) {
-  .team {
-    padding: 35px 20px 41px;
-  }
 
-  .team .team-wrapper {
-    flex-direction: column;
-    gap: 56px;
-    width: 100%;
-    display: flex;
-  }
-
-  .team .team-wrapper .team_card {
-    flex-wrap: nowrap;
-    width: 100%;
-    display: flex;
-  }
-
-  .team .team_card__title, .team .team_card__subtitle {
-    width: 100%;
-  }
-
-  .team .team_card__text {
-    width: 100%;
-    margin: 38px 0 55px;
-    font-size: 14px;
-    line-height: 16px;
-  }
-
-  .team-img {
-    width: 100%;
-    height: 100%;
-  }
-}
 
 /*# sourceMappingURL=index.684cc22b.css.map */
